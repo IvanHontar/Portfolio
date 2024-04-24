@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>Hontar Ivan Portfolio</title>
+<!--
+
+
+
+-->
+<link rel="stylesheet" href="static/css/bootstrap.min.css">
+<link rel="stylesheet" href="static/css/animate.css">
+<link rel="stylesheet" href="static/css/magnific-popup.css">
+<link rel="stylesheet" href="static/css/font-awesome.min.css">
+
+<!-- MAIN CSS -->
+<link rel="stylesheet" href="static/css/tooplate-style.css">
+
+</head>
+<body>
+
+<!-- PRE LOADER -->
+<div class="preloader">
+     <div class="spinner">
+          <span class="spinner-rotate"></span>
+     </div>
+</div>
+
+
+<!-- HOME SECTION -->
+<section id="home" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-5 col-md-7 col-sm-12">
+                    <div class="home-thumb">
+                         <h1 class="wow fadeInUp" data-wow-delay="0.4s">Hello, I am Ivan.</h1>
+                         <p class="wow fadeInUp white-color" data-wow-delay="0.6s">I'm a young Python developer,<br/>
+                               if you scroll down the page  you can read more about what I do.</p>
+                         <a href="#service" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s">discover more</a>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+
+<!-- SERVICE SECTION -->
+<section id="service" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                    <!-- SECTION TITLE -->
+                    <h2>What things i am doing...</h2>
+                    
+               </div>
+
+               <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-thumb">
+                         <i class="fa fa-smile-o"></i>
+                         <h4 class="white-color">Bot Development</h4>      
+                    </div>
+               </div>
+
+               <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-thumb">
+                         <i class="fa fa-camera"></i>
+                         <h4 class="white-color">Web Development</h4>
+                    </div>
+               </div>
+
+               <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-thumb">
+                         <i class="fa fa-lightbulb-o"></i>
+                         <h4 class="white-color">API Development</h4>
+                         
+                    </div>
+               </div>
+
+               <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="service-thumb">
+                         <i class="fa fa-clone"></i>
+                         <h4 class="white-color">DataBase Development</h4>
+                    </div>
+               </div>
+               
+          </div>
+     </div>
+</section>
+
+
+<!-- ABOUT SECTION -->
+<section id="about" class="parallax-section">
+     <div class="container">
+          <div class="row">
+               
+               <div class="col-md-4 col-sm-8">
+                    <div class="about-image-thumb">
+                         <img src="static/images/profile-image2.jpg" class="wow fadeInUp img-responsive" data-wow-delay="0.2s" alt="about image">
+                         <ul class="social-icon">
+                              <li><a href="#" class="fa fa-instagram"></a></li>
+                              <li><a href="https://www.linkedin.com/in/ivan-hontar-916124275/" class="fa fa-linkedin"></a></li>
+                         </ul>
+                    </div>
+               </div>
+
+               <div class="col-md-8 col-sm-12">
+                    <div class="about-thumb">
+                         <!-- SECTION TITLE -->
+                         <div class="wow fadeInUp section-title" data-wow-delay="0.6s">
+                              <h2>a little more about Ivan</h2>
+                         </div>
+                         <div class="wow fadeInUp" data-wow-delay="0.8s">
+                              <p>My name is Ivan Hontar,<br/> I am 19 years old, and I am a Junior Python Developer<br/>
+                                   . I'm a fast learner, always 
+                                   eager to learn and develop. I'm looking for an opportunity where I can 
+                                   make a significant contribution, learn from experienced 
+                                   professionals and continue my professional development.<br/> I am passionate about creating value for the company I work for.<br/>
+                                   I am driven by a desire for continuous learning and 
+                                   improvement.
+                                   
+                                   )</p>
+                    
+                         </div>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-12 col-sm-12">
+                    <!-- SECTION TITLE -->
+                    <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                         <h2>Get in touch</h2>
+                    </div>
+               </div>
+
+               <div class="col-md-7 col-sm-10">
+                    <!-- CONTACT FORM HERE -->
+                    <div class="wow fadeInUp" data-wow-delay="0.4s">
+                        <form id="contact-form" action="http://127.0.0.1:8000/submit_form" method="post">
+                              <div class="col-md-6 col-sm-6">
+                                   <input type="text" class="form-control" name="name" placeholder="Name" required="">
+                              </div>
+                              <div class="col-md-6 col-sm-6">
+                                   <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                              </div>
+                              <div class="col-md-12 col-sm-12">
+                                   <textarea class="form-control" rows="5" name="message" placeholder="Message" required=""></textarea>
+                              </div>
+                              <div class="col-md-offset-8 col-md-4 col-sm-offset-6 col-sm-6">
+                                   <button id="submit" type="submit" class="form-control" name="submit">Send Message</button>
+                              </div>
+                        </form>
+                    </div>
+               </div>
+
+               <div id="successMessage" style="display: none;">Your message has been sent successfully. We will contact you soon.</div>
+
+               <div class="col-md-5 col-sm-8">
+                    <!-- CONTACT INFO -->
+                    <div class="wow fadeInUp contact-info" data-wow-delay="0.4s">
+                         <div class="section-title">
+                              <h2>Contact Info</h2>
+                         </div>
+                         
+                         <p><i class="fa fa-map-marker"></i> 456 New Street 22000, New York City, USA</p>
+                         <p><i class="fa fa-comment"></i> <a href="mailto:vanagontar55@gmail.com">vanagontar55@gmail.com</a></p>
+                         <p><i class="fa fa-phone"></i>+380986624834</p>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+
+<!-- FOOTER SECTION -->
+<footer>
+    <div class="container">
+        <div class="row">
+
+               <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.8s">
+                    <p class="white-color">Copyright &copy; Hontar Ivan inc.
+                    | Design: By Hontar Ivan</p>
+                    <div class="wow fadeInUp" data-wow-delay="1s">
+                         <ul class="social-icon">
+                              <li><a href="#" class="fa fa-facebook"></a></li>
+                              <li><a href="#" class="fa fa-twitter"></a></li>
+                              <li><a href="#" class="fa fa-instagram"></a></li>
+                              <li><a href="#" class="fa fa-behance"></a></li>
+                              <li><a href="#" class="fa fa-github"></a></li>
+                         </ul>
+                    </div>
+          </div>
+     </div>
+</footer>
+
+
+
+<!-- SCRIPTS -->
+<script src="static/js/jquery.js"></script>
+<script src="static/js/bootstrap.min.js"></script>
+<script src="static/js/jquery.parallax.js"></script>
+<script src="static/js/smoothscroll.js"></script>
+<script src="static/js/jquery.magnific-popup.min.js"></script>
+<script src="static/js/magnific-popup-options.js"></script>
+<script src="static/js/wow.min.js"></script>
+<script src="static/js/custom.js"></script>
+
+</body>
+</html>
